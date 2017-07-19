@@ -1,4 +1,8 @@
-<b><font size="5"> Python package dependenies </font></b>
+
+<b> Text Modification Tool for edX Online course</b><br>
+a new open edX Content Modification Tool for text replacement, which is developed to automatically replace English text with translated text of Online edX course. Tool extracts course structure from exported edX course and to excel file. Then the English text is replaced by translated text which is noted in the excel file by the user. 
+
+<b> Python package dependenies</b>
 - lxml, xlrd, xlwt, beautifulsoup4
 
 
@@ -25,6 +29,7 @@
 
 <b><font size="5">NOTICE!!!</font></b>
 
+- This tool <u>only replaces</u> HTML(text) component.
 - This script is only tested with 1 edX course. Therefore, unexpected error should happen while using the program. 
 - There is a bug after uploading course back to edX. It is found that some text components disappeared in edX page. In our test, 1 component is missing.
 - Some HTML component listed in ‘error_files.txt’ will not have figures showed properly in edX. This happens when original component (Eng) and translated component (local language) have different number of figures   
