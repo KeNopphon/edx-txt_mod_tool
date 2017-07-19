@@ -33,7 +33,5 @@ A new open edX Content Modification Tool for text replacement, which is develope
 - This script is only tested with 1 edX course. Therefore, unexpected error should happen while using the program. 
 - There is a bug after uploading course back to edX. It is found that some text components disappeared in edX page. In our test, 1 component is missing.
 - Some HTML component listed in ‘error_files.txt’ will not have figures showed properly in edX. This happens when original component (Eng) and translated component (local language) have different number of figures   
-- This tool <u>only replaces</u> HTML(text) component.
-- This script is only tested with 1 edX course. Therefore, unexpected error should happen while using the program. 
-- There is a bug after uploading course back to edX. It is found that some text components disappeared in edX page. In our test, 1 component is missing.
-- Some HTML component listed in �error_files.txt� will not have figures showed properly in edX. This happens when original component (Eng) and translated component (local language) have different number of figures   
+
+
