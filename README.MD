@@ -1,8 +1,8 @@
-<b> Python package dependenies </b>
+<b><font size="5"> Python package dependenies </font></b>
 - lxml, xlrd, xlwt, beautifulsoup4
 
 
-<b> Workspace folder  </b>
+<b><font size="5"> Workspace folder  </font></b>
 - 2 python scripts 
 <br>course_struc_extract.py --> this script generates an excel file ‘conversion table’ 
 <br>text_replacement.py --> this script replaces target text components to exported course  
@@ -13,7 +13,7 @@
 <br>'Example' folder --> contain an ‘conversion table’ example files (both before and after filled up contents)
 
 
-<b> How to run </b>
+<b><font size="5"> How to run </font></b>
 - Run a python script ‘course_struc_extract.py’ 
    --> excel file ‘conversion_table.xlm’ will be created
 - Open the conversion_table 
@@ -23,4 +23,9 @@
 - If program is successfully executed, ready-to-upload course (course.tar.gz) is created inside the 'course' folder
 
 
+<b><font size="5">NOTICE!!!</font></b>
+
+- This script is only tested with 1 edX course. Therefore, unexpected error should happen while using the program. 
+- There is a bug after uploading course back to edX. It is found that some text components disappeared in edX page. In our test, 1 component is missing.
+- Some HTML component listed in ‘error_files.txt’ will not have figures showed properly in edX. This happens when original component (Eng) and translated component (local language) have different number of figures   
 
