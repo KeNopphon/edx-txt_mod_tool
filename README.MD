@@ -1,24 +1,24 @@
-Python package dependenies
+<b> Python package dependenies </b>
 - lxml, xlrd, xlwt, beautifulsoup4
 
 
-Workspace folder
+<b> Workspace folder  </b>
 - 2 python scripts 
-course_struc_extract.py --> this script generates an excel file ‘conversion table’
-text_replacement.py --> this script replaces target text components to exported course 
+<br>course_struc_extract.py --> this script generates an excel file â€˜conversion tableâ€™ 
+<br>text_replacement.py --> this script replaces target text components to exported course  
 - 4 folders
-‘course’ folder --> Unzip an exported edX course and move into this directory 
-‘original_course’ --> copy 'course' folder and place it in this directory
-‘source’ folder --> Move all translated texts (HTML files) to this directories
-'Example' folder --> contain an ‘conversion table’ example files (both before and after filled up contents)
+<br>â€˜courseâ€™ folder --> Unzip an exported edX course and move into this directory 
+<br>â€˜original_courseâ€™ --> copy 'course' folder and place it in this directory
+<br>â€˜sourceâ€™ folder --> Move all translated texts (HTML files) to this directories
+<br>'Example' folder --> contain an â€˜conversion tableâ€™ example files (both before and after filled up contents)
 
 
-How to run
-- Run a python script ‘course_struc_extract.py’ 
-   --> excel file ‘conversion_table.xlm’ will be created
+<b> How to run </b>
+- Run a python script â€˜course_struc_extract.pyâ€™ 
+   --> excel file â€˜conversion_table.xlmâ€™ will be created
 - Open the conversion_table 
-   --> manually add the path location of translated texts (HTML files) contained inside ‘source’ folder (please see example file for detail)
-- Run a ‘text_replacement.py’ 
+   --> manually add the path location of translated texts (HTML files) contained inside â€˜sourceâ€™ folder (please see example file for detail)
+- Run a â€˜text_replacement.pyâ€™ 
    --> Original text in 'course' folder will be replaced by the translated texts in 'source' folder
 - If program is successfully executed, ready-to-upload course (course.tar.gz) is created inside the 'course' folder
 
