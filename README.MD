@@ -1,4 +1,8 @@
-<b><font size="5"> Python package dependenies </font></b>
+
+<b> Text Modification Tool for edX Online course</b><br>
+a new open edX Content Modification Tool for text replacement, which is developed to automatically replace English text with translated text of Online edX course. 
+
+<b> Python package dependenies</b>
 - lxml, xlrd, xlwt, beautifulsoup4
 
 
